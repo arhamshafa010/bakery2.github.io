@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+/* *{
+    overflow: hidden;
+} */
+.background1 {
+  background-color: #ebebeb;
+  margin-top: 0%;
+}
+.background2 {
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #eeaf43;
+}
+.color{
+    color: #eeaf43;  
+}
+.BGcolor{
+    background-color: #eeaf43;
+}
+.BGcolor2{
+    background-color: #eeaf43;
+    width: 64px;
+    height: 50px;
+    border-radius: 50px;
+}
+.iconDes{
+   margin-left: 14px;
+}
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+.border1{
+    border-top: 4px solid  #eeaf43 ;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.nav-tabs .nav-link.active {
+    color: black;
+    background-color: #eeaf43;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border-radius: 20px;
+    
+}
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0px;
+   }
+
+.imageSize{
+    width: 100px;
+    height: 100px;
+}
+.sliderimg{
+    width: 10%;
+}
+.card{
+    border: none;
+}
+.insta{
+    color: 
+    #d8456b ;
+}
+.btnn{
+    border: none;
+    background-color: #eeaf43;
+    font-weight: bold;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+}
+.btnn:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.btnnn{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+}
+.btnnn:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.navv:hover{
+    color: #eeaf43;
+}
+.fontsz{
+    font-size: 13px;
+}
+.footerBG{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #eeaf43;
+}
+.adjust{
+    padding-left: 13px;
+    padding-top: 12px;
+}
+.borderrem{
+    border: none;
+}
+@media only screen and (max-width: 990px) {
+    .mobileNav{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .Header-text{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .textSZ{
+        font-size: 14px;
+    }
+    .textSZicon{
+        font-size: 20px;
+    }
+    .main-logo{
+        width: 80px;
+        margin-right: 1rem;
+    }
+    .mobileNav{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .mt-5{
+        margin-top: 1rem !important;
+    }
+    .h2, h2 {
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .h4, h4 {
+        font-size: 20px;
+    }
+    .h1, h1 {
+        font-size: 22px;
+    }
+    .fontsize{
+        font-size: 13px;
+    }
+    .btnn {
+        border: none;
+        background-color: #eeaf43;
+        font-weight: bold;
+        width: 85px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .me-4 {
+        margin-right: 1rem!important;
+    }
+    .nav-tabs .nav-link.active {
+        color: black;
+        background-color: #eeaf43;
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link {
+        color: black;
+        /* background-color: #eeaf43; */
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link.active {
+        color: black;
+        background-color: #eeaf43;
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link {
+        color: black;
+        /* background-color: #eeaf43; */
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .btnnn {
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        width: 85px;
+        height: 32px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .dealimg{
+        display: none;
+    }
+    .imageSize {
+        width: 70px;
+        height: 70px;
+    }
+    /* .mx-auto{
+        margin-right: 1rem!important;
+        margin-left: auto!important;
+    }
+    .card-img-top {
+        width: 85%;
+    } */
+
+  }
+  @media only screen and (max-width: 420px) {
+    .Header-text{
+        font-size: 8px;
+        padding-top: 5px;
+    }
+    .textSZ{
+        font-size: 12px;
+    }
+    .textSZicon{
+        font-size: 15px;
+    }
+    .main-logo{
+        width: 70px;
+    }
+    .mobileNav{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .mt-5{
+        margin-top: 1rem !important;
+    }
+    .mt-5{
+        margin-top: 1rem !important;
+    }
+    .h1, h1 {
+        font-size: 22px;
+    }
+    .h2, h2 {
+        font-size: 18px;
+    }
+    .h4, h4 {
+        font-size: 20px;
+    }
+    .fontsize{
+        font-size: 13px;
+    }
+    .btnn {
+        border: none;
+        background-color: #eeaf43;
+        font-weight: bold;
+        width: 85px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .me-4 {
+        margin-right: 1rem!important;
+    }
+    .nav-tabs .nav-link.active {
+        color: black;
+        background-color: #eeaf43;
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link {
+        color: black;
+        /* background-color: #eeaf43; */
+        width: 85px;
+        height: 35px;
+        color: black;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .btnnn {
+        border: none;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        width: 85px;
+        height: 32px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    .dealimg{
+        display: none;
+    }
+    .imageSize {
+        width: 70px;
+        height: 70px;
+    }
+    /* .mx-auto{
+        margin-right: 1rem!important;
+        margin-left: auto!important;
+    }
+    .card-img-top {
+        width: 85%;
+    } */
+
+
+  }
